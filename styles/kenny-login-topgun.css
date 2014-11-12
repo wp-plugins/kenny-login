@@ -1,0 +1,104 @@
+body.login {
+    min-height: 100%;
+
+}
+#login {
+    position: relative;
+    width: 100%;
+    min-height: 96%;
+    margin: 0;
+    padding: 0 0 4%;
+    background-image: url(../images/kenny_tg_background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 30% 0;
+}
+body.login h1 a {
+    width: 100%;
+    max-width: 500px;
+    height: 0;
+    margin: 0 auto;
+    padding: 180px 0 0 0;
+    overflow: hidden;
+    background-image: url(../images/kenny_login_logo.png);
+    background-size: contain;
+    background-position: center center;
+}
+body.login form {
+    position: relative !important; /*prevent wordpress from hijacking my layering*/
+    width: 272px;
+    margin: 0 auto;
+    padding-bottom: 36px;
+}
+body.login #login p.submit #wp-submit {
+    margin: 10px auto 0;
+    width: 100%;
+}
+body.login #nav,
+body.login #backtoblog {
+    position: relative;
+    font-size: 13px;
+    margin: 12px auto;
+    max-width: 272px;
+}
+body.login #nav a,
+body.login #backtoblog a {
+    color: #123763;
+}
+
+body.login .button-primary {
+    background-color: #123763;
+}
+body.login #login_error {
+    margin: 12px auto;
+    max-width: 292px;
+}
+
+body.login p.kenny-image {
+    position: absolute;
+    bottom: 0;
+    text-align: right;
+    margin: 0;
+    width: 100%;
+}
+body.login p.kenny-image a {
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 30%;
+    height: 0;
+    margin: 0;
+    padding: 36.785% 0 0 0;
+    overflow: hidden;
+    background-image: url(../images/kenny_tg_foregnd.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: contain;
+}
+body.login p#backtoblog {
+    display: none;
+}
+
+body.login .message {
+    width: 292px;
+    margin: 0 auto 10px !important;
+}
+
+
+/*styles for interim login form: */
+.interim-login.login form {
+    margin: 0 auto;
+}
+.interim-login #login {
+    margin: 0;
+    padding: 0 0 4%;
+}
+
+@media (max-width: 650px) {
+    #login,
+    .interim-login #login {
+        min-height: 64%;
+        padding: 0 0 36%;
+    }
+}
