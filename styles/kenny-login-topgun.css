@@ -89,7 +89,9 @@ body.login .message {
 /* mobile fixes */
 .mobile #login .message,
 .mobile #login form,
-.mobile #login_error {
+.mobile #login_error,
+.mobile #login #backtoblog,
+.mobile #login #nav {
 	margin-left: auto;
 }
 
