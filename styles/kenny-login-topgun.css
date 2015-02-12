@@ -86,6 +86,14 @@ body.login .message {
 }
 
 
+/* mobile fixes */
+.mobile #login .message,
+.mobile #login form,
+.mobile #login_error {
+	margin-left: auto;
+}
+
+
 /*styles for interim login form: */
 .interim-login.login form {
     margin: 0 auto;
@@ -97,7 +105,8 @@ body.login .message {
 
 @media (max-width: 650px) {
     #login,
-    .interim-login #login {
+    .interim-login #login.
+	.mobile #login {
         min-height: 64%;
         padding: 0 0 36%;
     }
